@@ -9,28 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Jasmine Obas",
+  title: "Hey Guys, I'm Jasmine",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate & versitile programmer from Virginia. I've exposed myself to multiple areas in the tech world from DevOps and CySec to Software Engineering and Game Dev. I live off taking on challanges and growing my capabilities as a person and a programmer! 😎"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://1drv.ms/w/s!Augqret9u_SAh6UcIKKZOrx2f5BzMg?e=BaaloD",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/jaybuurdd",
+  linkedin: "https://www.linkedin.com/in/jasmine-obas-burdette/",
+  //gmail: "contact@davidrakosi.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  //medium: "https://medium.com/@davidrakosi",
+  //stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  instagram: 'https://www.instagram.com/therealjaso/',
+  twitter: 'https://twitter.com/therealjaso',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,14 +38,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Nerdy Software Engineer, who codes Machine Learning apps during the day and creates\
+  Emulators with my classmates at night.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🧬 Create ground-breaking advanced technologies in Device Forensics, Airborn Cyber Defense, and Anonymmous Interent.  "
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    emoji("📊 Fluent Data Science Dev in Python with a current focus in Natural Language Processing."),
+    emoji("🎥 Content creator for social medias and animating and video editing freelancer."
     )
   ],
 
@@ -54,44 +54,52 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Game Dev",
+      fontAwesomeClassname:"fas fa-gamepad"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "R&D",
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Content Creator",
+      fontAwesomeClassname: "fas fa-magic"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Git",
+      fontAwesomeClassname:"fas fa-code-branch"
+    },
+    {
+      skillName: "HTML-5",
+      fontAwesomeClassname:"fab fa-html5"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname:"fab fa-css3-alt"
+    },
+    {
+      skillName: "ReactJS",
+      fontAwesomeClassname:"fab fa-react"
+    },
+    {
+      skillName: "NodeJS",
+      fontAwesomeClassname:"fab fa-node"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -100,26 +108,27 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "George Mason Unversity",
+      logo: require("./assets/images/gmu.png"),
+      subHeader: "Pursuing Bachelors in Applied Computer Science w/ Concetraion in Computer Game Design",
+      duration: "August 2019 - May 2022",
+      desc: "Participated in the research of Natural Language Processing and Data Mining.",
+
+      
+      
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Montgomery College",
+      logo: require("./assets/images/mc-trans.png"),
+      subHeader: "Two Associates of Scince Degrees in:",
+      subHeader: "Computer Science",
+      subHeader: "&",
+      subHeader: "Computer Gaming and Simulations",
+      duration: "August 2015 - May 2019",
+      desc: "Participated in Collegiate Athletics and graduated under Phi Theta Kappa.",
     }
   ]
 };
@@ -130,16 +139,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Programming", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Content Creation",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "90%"
+      Stack: "Full Stack Dev",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -151,35 +160,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Software Engineer Intern",
+      company: "Grier Forensics",
+      companylogo: require("./assets/images/grier.png"),
+      date: "January 2021 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "We invite the unknown.",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Advanced technology development",
+        "Security and forensics",
+        "Machine Learning application development"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Jr. Sys. Engineer Intern",
+      company: "Roka Security",
+      companylogo: require("./assets/images/roka.png"),
+      date: "March 2020 – January 2021",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "Stay ahead of the curve with your security.",
+      descBullets: [
+          "R&D on cyber security methods and forensics tools",
+          "Building classes based on client requests on CySec related topics.",
+          "Web application automated testing using Selenium"
+        ]
     },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    }
   ]
 };
 
@@ -188,9 +193,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "jaybuurdd", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -310,7 +315,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -348,15 +353,15 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+    "The world leaves a lot to talk about, lets chat.",
+  number: "(703) 589 9255",
+  email_address: "jobas@gmu.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "therealjaso", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

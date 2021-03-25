@@ -44,5 +44,16 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
+  },
+  "description": "![ReactJS Resume Website Template](portfolio.png?raw=true \"ReactJS Resume Website Template\")",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaybuurdd/jasmine-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaybuurdd/jasmine-portfolio/issues"
   }
 }

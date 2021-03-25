@@ -72,7 +72,7 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .medium i:hover {
-  background-color: black;
+  background-color: rgb(248, 242, 242);
 }
 
 /* Media Query */
